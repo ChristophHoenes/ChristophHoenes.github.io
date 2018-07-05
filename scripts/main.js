@@ -51,7 +51,7 @@ exp.init = function(){
 	config_deploy.liveExperiment = config_deploy.deployMethod !== "debug";
 	config_deploy.prolificCode = '9BTAOPQD';
 	config_deploy.is_MTurk = config_deploy.MTurk_server !== "";
-  config_deploy.submissionURL = config_deploy.deployMethod == "localServer"? "http://localhost:4000/api/submit_experiment": "https://mcmpact.ikw.uni-osnabrueck.de:4000api/submit_experiment/" + config_deploy.experiment_id;
+  config_deploy.submissionURL = config_deploy.deployMethod == "localServer"? "http://localhost:4000/api/submit_experiment": "https://mcmpact.ikw.uni-osnabrueck.de:4000api/submit_experiment/" + config_deploy.experimentID;
 	console.log("deployMethod: " + config_deploy.deployMethod);
 	console.log("live experiment: " + config_deploy.liveExperiment);
 	console.log("runs on MTurk: " + config_deploy.is_MTurk);
