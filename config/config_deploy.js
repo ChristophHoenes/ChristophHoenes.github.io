@@ -5,7 +5,7 @@ var config_deploy = {
     // needed to recover data from server app
     "author": "Christoph Hoenes",
     // needed to recover data from server app
-    "experiment_id": "Probability matching",
+    "experiment_id": "6",
     "description": "Replica study by Hoenes and Schreiber",
 
     // set deployment method; use one of:
