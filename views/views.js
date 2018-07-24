@@ -33,12 +33,12 @@ var intro = {
 var beginMain = {
     "text": "In the following you will have to click on one of the two buttons. " +
             "If you think the next object will occur on the left hand side press button 'Left'. " +
-            "if you think the next object will occur on thr right hand side press button 'Right'.<br>" +
+            "if you think the next object will occur on the right hand side press button 'Right'.<br>" +
             "<br>Your task is to guess where the object is going to appear next. After clicking on a button the object " +
             "(a random geometrical shape either triangle, square or circle with a random color either red, blue, yellow, or green) " +
             "is displayed on the left or right hand side for <strong>1 second</strong> so you can see if you were right.<br>" +
             "<br>Please <strong>wait</strong> for the object to disappear again before you press any button again.<br>" +
-            "<br>Your choises have <strong>no</strong> effect on the probability of the position of the object in the other trials.<br>You will do 100 trials. Have fun :)",
+            "<br>Your choices have <strong>no</strong> effect on the probability of the position of the object in the other trials.<br>You will do 100 trials. Have fun :)",
     render: function() {
 
         viewTemplate = $('#begin-exp-view').html();
