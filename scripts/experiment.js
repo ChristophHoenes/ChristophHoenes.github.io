@@ -14,7 +14,7 @@ exp.customize = function() {
 
     // prepare information about trials (procedure)
 	// randomize main trial order, but keep practice trial order fixed
-    random_trials = create_random_trials(100, 0.7, "normal");
+    random_trials = create_random_trials(120, 0.7, "normal");
     //customized shuffle preventing chaining of trial type
     random_trials = shuffle_trials(random_trials, 2*random_trials.length);
     this.trial_info.main_trials = random_trials;
