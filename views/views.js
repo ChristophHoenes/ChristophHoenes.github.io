@@ -5,7 +5,7 @@ var intro = {
     "text": "Thank you for participating in our experiment!<br> You will have to do a simple task. " +
     "All you need to do is to guess on which side of the screen an object is going to occur. " +
     "The object can appear either on the right or on the left hand side of the screen.<br>" +
-    "<strong>Try to guess right</strong> as many of the 100 trials as you can.<br>" +
+    "<strong>Try to guess right</strong> as many of the 120 trials as you can.<br>" +
     "<br> Click on 'Next' to get to the instructions. Please <strong>read and follow them carefully</strong>.",
     // introduction's slide proceeding button text
     "buttonText": "Next",
@@ -38,7 +38,7 @@ var beginMain = {
             "(a random geometrical shape either triangle, square or circle with a random color either red, blue, yellow, or green) " +
             "is displayed on the left or right hand side for <strong>1 second</strong> so you can see if you were right.<br>" +
             "<br>Please <strong>wait</strong> for the object to disappear again before you press any button again.<br>" +
-            "<br>Your choices have <strong>no</strong> effect on the probability of the position of the object in the other trials.<br>You will do 100 trials. Have fun :)",
+            "<br>Your choices have <strong>no</strong> effect on the probability of the position of the object in the other trials.<br>You will do 120 trials. Have fun :)",
     render: function() {
 
         viewTemplate = $('#begin-exp-view').html();
