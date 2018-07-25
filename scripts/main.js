@@ -59,6 +59,7 @@ exp.init = function(){
 	console.log("live experiment: " + config_deploy.liveExperiment);
 	console.log("runs on MTurk: " + config_deploy.is_MTurk);
 	console.log("MTurk server: " + config_deploy.MTurk_server);
+	console.log("URL: " + config_deploy.submissionURL);
 };
 
 
