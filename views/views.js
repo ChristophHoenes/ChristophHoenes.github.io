@@ -57,7 +57,7 @@ var beginMain = {
 
 var main = {
 
-	trials : 100,
+	trials : 120,
 
     render : function(CT) {
 
